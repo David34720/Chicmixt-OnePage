@@ -1,7 +1,7 @@
 :root {
 	font-size: 16px;
 
-	--bg-color: #efefef;
+	--bg-color: #E2E1DD;
 	--primary-color: #e2e1dd;
 	--secondary-color: #151410;
 	--tertiary-color: #de277b;
@@ -36,6 +36,9 @@ h3 {
 	color: var(--text-color);
 	border-radius: 10px;
 	box-shadow: 0px 1px 4px var(--tertiary-color);
+}
+.no-shadow {
+	box-shadow: none;
 }
 
 .box-header {
